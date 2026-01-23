@@ -18,8 +18,6 @@
 - [Project Structure](#project-structure)
 - [Development](#development)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
 
 ---
 
@@ -161,41 +159,66 @@ The application will be available at `http://localhost:5173`
 ## Project Structure
 
 ```
-Webora/
-├── public/                    # Static assets
+├── public/
+│   ├── favicon.svg
+│   └── vite.svg
 ├── src/
-│   ├── assets/               # Images, fonts, and media files
-│   │   └── assets.ts        # Asset exports
-│   ├── components/           # Reusable React components
-│   │   ├── Navbar.tsx       # Navigation bar
-│   │   ├── Sidebar.tsx      # Project sidebar
-│   │   ├── EditorPanel.tsx  # Visual element editor
-│   │   ├── ProjectPreview.tsx # Website preview iframe
-│   │   └── ...
-│   ├── configs/              # Configuration files
-│   │   └── axios.ts         # Axios HTTP client setup
-│   ├── lib/                  # Utility libraries
-│   │   ├── auth-client.ts   # Better Auth client
-│   │   └── utils.ts         # Helper functions
-│   ├── pages/                # Route pages
-│   │   ├── Home.tsx         # Landing page
-│   │   ├── Projects.tsx     # Project editor
-│   │   ├── MyProjects.tsx   # User projects dashboard
-│   │   ├── Community.tsx    # Published projects gallery
-│   │   ├── Pricing.tsx      # Credit packages
-│   │   ├── Careers.tsx      # Job listings
-│   │   └── ...
-│   ├── types/                # TypeScript type definitions
+│   ├── assets/
+│   │   ├── assets.ts
+│   │   ├── favicon.svg
+│   │   └── logo.svg
+│   ├── components/
+│   │   ├── AboutUsSection.tsx
+│   │   ├── Background.tsx
+│   │   ├── CareersSection.tsx
+│   │   ├── ContactSection.tsx
+│   │   ├── EditorPanel.tsx
+│   │   ├── Footer.tsx
+│   │   ├── LoaderSteps.tsx
+│   │   ├── Navbar.tsx
+│   │   ├── Pagination.tsx
+│   │   ├── PrivacyPolicySection.tsx
+│   │   ├── ProjectPreview.tsx
+│   │   └── Sidebar.tsx
+│   ├── configs/
+│   │   └── axios.ts
+│   ├── lib/
+│   │   ├── auth-client.ts
+│   │   └── utils.ts
+│   ├── pages/
+│   │   ├── auth/
+│   │   │   └── AuthPage.tsx
+│   │   ├── AboutUs.tsx
+│   │   ├── Careers.tsx
+│   │   ├── Community.tsx
+│   │   ├── Contact.tsx
+│   │   ├── Home.tsx
+│   │   ├── Loading.tsx
+│   │   ├── MyProjects.tsx
+│   │   ├── Preview.tsx
+│   │   ├── Pricing.tsx
+│   │   ├── Privacy.tsx
+│   │   ├── Projects.tsx
+│   │   ├── Settings.tsx
+│   │   └── View.tsx
+│   ├── types/
 │   │   └── index.ts
-│   ├── App.tsx               # Main application component
-│   ├── main.tsx              # Application entry point
-│   └── index.css             # Global styles
-├── .env                       # Environment variables
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   └── providers.tsx
+├── .gitignore
+├── components.json
+├── eslint.config.js
+├── index.html
+├── package-lock.json
 ├── package.json
+├── README.md
+├── tsconfig.app.json
 ├── tsconfig.json
-├── vite.config.ts
-├── tailwind.config.js
-└── vercel.json               # Vercel deployment config
+├── tsconfig.node.json
+└── vite.config.ts
+
 ```
 
 ---

@@ -25,7 +25,7 @@
 
 Webora is a cutting-edge AI-powered website builder that transforms simple text descriptions into beautiful, fully functional websites. The platform combines artificial intelligence with an intuitive visual editor, making professional web development accessible to everyone—no coding knowledge required.
 
-This repository contains the **frontend client** built with React, TypeScript, and modern web technologies. For the backend API, visit [backend-server](https://github.com/JOSIAHTHEPROGRAMMER/backend-server).
+This repository contains the **frontend client** built with React, TypeScript, and modern web technologies. For the backend API, visit [backend-server](https://github.com/JOSIAHTHEPROGRAMMER/Webora-backend-server).
 
 ### Key Capabilities
 
@@ -246,7 +246,7 @@ npm run type-check
 
 ### Development Workflow
 
-1. **Start the backend server** (see [backend-server](https://github.com/JOSIAHTHEPROGRAMMER/backend-server))
+1. **Start the backend server** (see [backend-server](https://github.com/JOSIAHTHEPROGRAMMER/Webora-backend-server))
 2. **Start the frontend dev server**: `npm run dev`
 3. **Make changes** and see hot module replacement in action
 4. **Test features** in the browser
@@ -340,8 +340,8 @@ The production build is optimized with:
 
 ## Links
 
-- **Frontend Repository**: [github.com/JOSIAHTHEPROGRAMMER/Webora](https://github.com/JOSIAHTHEPROGRAMMER/Webora)
-- **Backend Repository**: [github.com/JOSIAHTHEPROGRAMMER/backend-server](https://github.com/JOSIAHTHEPROGRAMMER/backend-server)
+- **Frontend Repository**: [Webora-Client](https://github.com/JOSIAHTHEPROGRAMMER/Webora)
+- **Backend Repository**: [Backend-Server](https://github.com/JOSIAHTHEPROGRAMMER/Webora-backend-server)
 - **Live Demo**: [Coming Soon]
 
 ---

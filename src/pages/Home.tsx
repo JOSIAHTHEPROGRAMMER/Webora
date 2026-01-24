@@ -13,10 +13,21 @@ const Home = () => {
   const [loading, setLoading] = useState(false);
   const [projects, setProjects] = useState([]);
 
+  const shuffleArray = (array: []) => {
+    const shuffled = [...array];
+    for (let i = shuffled.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled;
+  };
+
   const fetchProjects = async () => {
     try {
       const { data } = await api.get("/api/project/published");
-      setProjects(data.projects.slice(0, 6));
+
+      const randomProjects = shuffleArray(data.projects).slice(0, 4);
+      setProjects(randomProjects);
 
       setLoading(false);
     } catch (error: any) {

@@ -342,7 +342,7 @@ The production build is optimized with:
 
 - **Frontend Repository**: [Webora-Client](https://github.com/JOSIAHTHEPROGRAMMER/Webora)
 - **Backend Repository**: [Backend-Server](https://github.com/JOSIAHTHEPROGRAMMER/Webora-backend-server)
-- **Live Demo**: [Coming Soon]
+- **Deploy Link**: [Deploy Link](https://webora-six.vercel.app)
 
 ---
 

@@ -1,3 +1,4 @@
+
 export interface User {
     id: string;
     email: string;
@@ -87,6 +88,14 @@ export interface EditorPanelProps {
     } | null;
     onUpdate: (updates: any) => void;
     onClose: () => void;
+}
+
+export interface Testimonial {
+    review: string;
+    name: string;
+    date: string;
+    rating: number;
+    image: string;
 }
 
 export interface FormState {

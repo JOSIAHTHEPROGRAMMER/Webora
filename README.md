@@ -4,6 +4,8 @@
 [![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)](https://reactjs.org/)
 [![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+![GitHub repo size](https://img.shields.io/github/repo-size/JOSIAHTHEPROGRAMMER/Webora?style=flat-square&color=00d4ff)
+![GitHub last commit](https://img.shields.io/github/last-commit/JOSIAHTHEPROGRAMMER/Webora?style=flat-square&color=ff6b9d)
 
 **Transform ideas into stunning websites in seconds with AI**
 

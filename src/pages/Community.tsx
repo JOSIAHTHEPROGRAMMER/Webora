@@ -78,16 +78,6 @@ const Community = () => {
                     className="w-full sm:w-80 pl-10 pr-4 py-2 rounded-md bg-gray-800 text-white placeholder:text-gray-400 focus:outline-none focus:ring-2 focus:ring-sky-500"
                   />
                 </div>
-
-                <button
-                  onClick={() => navigate("/")}
-                  className="flex items-center gap-2 text-white px-3 sm:px-6 py-2 rounded bg-linear-to-br 
-           from-teal-500 to-sky-600 hover:from-teal-600 hover:to-teal-700 hover:opacity-90 active:scale-95 transition-all whitespace-nowrap"
-                >
-                  <PlusIcon size={18} />
-                  <span className="hidden sm:inline">Create New</span>
-                  <span className="sm:hidden">New</span>
-                </button>
               </div>
             </div>
 

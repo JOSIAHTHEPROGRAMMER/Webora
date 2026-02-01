@@ -340,6 +340,16 @@ The production build is optimized with:
 
 ---
 
+## Stripe Test Card
+
+**Successful Payment:**
+- Card Number: `4242 4242 4242 4242`
+- CVC: Any 3 digits
+- Expiry: Any future date
+- ZIP: Any valid code
+
+[Full test card documentation](https://stripe.com/docs/testing)
+
 ## Links
 
 - **Frontend Repository**: [Webora-Client](https://github.com/JOSIAHTHEPROGRAMMER/Webora)

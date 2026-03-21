@@ -25,7 +25,7 @@
 
 ## About
 
-Webora is a cutting-edge AI-powered website builder that transforms simple text descriptions into beautiful, fully functional websites. The platform combines artificial intelligence with an intuitive visual editor, making professional web development accessible to everyone—no coding knowledge required.
+Webora is a cutting-edge AI-powered website builder that transforms simple text descriptions into beautiful, fully functional websites. The platform combines artificial intelligence with an intuitive visual editor, making professional web development accessible to everyoneno coding knowledge required.
 
 This repository contains the **frontend client** built with React, TypeScript, and modern web technologies. For the backend API, visit [backend-server](https://github.com/JOSIAHTHEPROGRAMMER/Webora-backend-server).
 

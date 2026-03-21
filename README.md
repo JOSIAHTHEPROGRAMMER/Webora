@@ -8,6 +8,11 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/JOSIAHTHEPROGRAMMER/Webora?style=flat-square&color=ff6b9d)
 
 **Transform ideas into stunning websites in seconds with AI**
+---
+
+![Image](https://github.com/user-attachments/assets/bafa5a85-0103-49de-bf54-8f22a866960e)
+
+
 
 ---
 

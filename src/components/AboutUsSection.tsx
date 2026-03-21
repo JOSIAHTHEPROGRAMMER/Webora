@@ -1,5 +1,4 @@
 import { features } from "../assets/assets";
-import Background from "./Background";
 
 const AboutUsSection = () => {
   // Split features into rows of 2 for alternating layout
@@ -131,10 +130,17 @@ const AboutUsSection = () => {
         {features.length % 2 !== 0 && (
           <div className="grid grid-cols-1 md:grid-cols-[1fr_2fr_1fr]">
             <div />
-            <div className="group relative rounded-2xl border border-white/8 bg-white/[0.03] backdrop-blur-sm p-10 transition-all duration-500 hover:border-white/15 hover:bg-white/[0.055]">
-              <div className="absolute top-0 left-8 w-12 h-px bg-gradient-to-r from-cyan-400/60 to-transparent transition-all duration-500 group-hover:w-20" />
+            <div
+              className="group relative rounded-2xl border border-white/8 
+            bg-white/3 backdrop-blur-sm p-10 transition-all duration-500 hover:border-white/15 hover:bg-white/5.5"
+            >
               <div
-                className={`inline-flex items-center justify-center rounded-xl bg-gradient-to-tr ${features[features.length - 1].color} p-3.5 mb-6`}
+                className="absolute top-0 left-8 w-12 h-px bg-linear-to-r
+               from-cyan-400/60 to-transparent transition-all duration-500 group-hover:w-20"
+              />
+              <div
+                className={`inline-flex items-center justify-center
+                   rounded-xl bg-linear-to-tr ${features[features.length - 1].color} p-3.5 mb-6`}
               >
                 <img
                   src={features[features.length - 1].img}
